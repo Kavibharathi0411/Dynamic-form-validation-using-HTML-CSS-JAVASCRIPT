@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Validation Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="container-items">
+            <form action="#" id="DynamicForm" method="post">
+                <h1 class="heading"> Validation Form</h1>
+                <hr class="hr">
+                <table>
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                    </tr>
+                        <td><label for="email">Email:</label></td>
+                        <td colspan="4"><input type="email" id="email" class="email" class="required"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="username">User Name:</label></td>
+                        <td><input type="text" name="username" id="username" class="username" class="required"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pass">Password:</label></td>
+                        <td><input type="password" name="pass" id="pass" class="pass" class="required"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="cpass">Confirm Password:</label></td>
+                        <td><input type="password" name="cpass" id="cpass" class="cpass" class="required"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="number">Mobile:</label></td>
+                        <td><input type="tal" name="number" id="number" class="required"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pancard">PanCard:</label></td>
+                        <td><input type="tal" name="pancard" id="pancard"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="adharcard">AdharCard:</label></td>
+                        <td><input type="tal" name="adharcard" id="adharcard" class="required"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td colspan="2"><input type="submit" name="btn" id="btn"></td>
+                    </tr>
+
+                </table>
+            </form>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
